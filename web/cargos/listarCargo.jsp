@@ -15,9 +15,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body style="background-color: #00B6A0">
         <h1>Cargos</h1>
-        <a href="Controlador?accion=addcargo">Nuevo Cargo</a>
+        <a href="Controlador?accion=addcargo"><img src="iconos/añadir2.png"  height="70"></a>
         <table border="1">
             <thead>
                 <tr>
@@ -43,7 +43,7 @@
                     <th>
 
 
-                        <a href="Controlador?accion=eliminarCargo&id=<%= per.getId_Cargo()%>">Eliminar</a>
+                        <a href="Controlador?accion=eliminarCargo&id=<%= per.getId_Cargo()%>"><img src="iconos/eliminar.png"  height="70"></a>
 
                     </th>
 

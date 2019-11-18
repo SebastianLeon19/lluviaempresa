@@ -16,9 +16,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Personas</h1>
-        <a href="Controlador?accion=add"> Agregar Nuevo</a>
+    <body style="background-color: #00B6A0">
+        
+        <h1>Listado de datos personales</h1>
+        <a href="Controlador?accion=add" class="btn btn-danger btn-sm"><img src="iconos/aregar.png"  height="70"></a>
+        
         <table border="1">
             <thead>
                 <tr>
@@ -45,8 +47,8 @@
                     <td><%= per.getId_empleado()%></td>
                     
                  <th>
-                     <a href="Controlador?accion=editar&rut=<%= per.getRut()%>">Editar</a>
-                     <a href="Controlador?accion=eliminar&rut=<%= per.getRut()%>">Eliminar</a>
+                     <a href="Controlador?accion=editar&rut=<%= per.getRut()%>"><img src="iconos/editar.png"  height="50"></a>
+                     <a href="Controlador?accion=eliminar&rut=<%= per.getRut()%>"><img src="iconos/eliminar.png"  height="50"></a>
                        
   
                      

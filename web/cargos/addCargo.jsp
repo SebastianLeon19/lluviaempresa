@@ -11,14 +11,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body style="background-color: #00B6A0">
         <form action= "Controlador">
             Codigo Cargo:<br>
             <input type="text" name="txtIdcargo"><br>
             Nombre del Cargo:<br>
             <input type="text" name="txtNombre"><br>
 
-            <input  type="submit" name="accion" value="AgregarCargo" class="btn btn-green"><br/>
+            <input  type="submit" name="accion" value="AgregarCargo" class="btn btn-primary btn-sm"><br/>
 
 
         </form>

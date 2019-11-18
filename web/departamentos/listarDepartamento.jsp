@@ -16,12 +16,12 @@
         <link rel="stylesheet" href="../css/Estiloslistar.css">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body style="background-color: #00B6A0">
             <center>
         
         <font face="San Francisco" size="3">
         <font face="San Francisco" size="3">
-        <label id="titulo"><b>Lista de Departamentos</b></label>
+        <label id="titulo"><b><h1>Lista de Departamentos</b></h1><img src="iconos/jefe.png"  height="70"></label>
         </font>
         <table id="tabla_datos" border="1">
             <thead> 
@@ -46,7 +46,7 @@
 
                     <th>
                         
-                        <a class="boton" href="Controlador?accion=EliminarDepar&idD=<%= per.getId_departamento()%>">Eliminar</a>
+                        <a class="boton" href="Controlador?accion=EliminarDepar&idD=<%= per.getId_departamento()%>"><img src="iconos/rechazado.png"  height="70" ></a>Eliminar
 
                     </th>
                 </tr>

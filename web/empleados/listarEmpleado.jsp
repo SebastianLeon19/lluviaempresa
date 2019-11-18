@@ -17,9 +17,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Personas</h1>
-        <a href="Controlador?accion=add"> Agregar Nuevo</a>
+    <body style="background-color: #00B6A0">
+        <h1>Listado datos del empleado</h1>
+        <a href="Controlador?accion=add"> <img src="iconos/aregar.png"  height="70"></a>
         <table border="1">
             <thead>
                 <tr>
